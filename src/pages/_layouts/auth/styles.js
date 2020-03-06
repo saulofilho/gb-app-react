@@ -23,43 +23,43 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-  }
 
-  input {
-    background: rgba(0, 0, 0, 0.1);
-    border: 0;
-    border-radius: 4px;
-    height: 44px;
-    padding: 0 15px;
-    color: red;
-    margin: 0 0 10px;
+    input {
+      background: rgba(0, 0, 0, 0.1);
+      border: 0;
+      border-radius: 4px;
+      height: 44px;
+      padding: 0 15px;
+      color: red;
+      margin: 0 0 10px;
 
-    &::placeholder {
-      color: rgba(255, 255, 255, 0.7);
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+      }
     }
-  }
 
-  span {
-    color: #fb6f91;
-    align-self: flex-start;
-    margin: 0 0 10px;
-    font-weight: bold;
-    font-size: 12px;
-  }
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
+      font-size: 12px;
+    }
 
-  button {
-    margin: 5px 0 0;
-    height: 44px;
-    background: lightblue;
-    font-weight: bold;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: background 0.2s;
+    button {
+      margin: 5px 0 0;
+      height: 44px;
+      background: lightblue;
+      font-weight: bold;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: background 0.2s;
 
-    &:hover {
-      background: ${darken(0.03, 'lightblue')};
+      &:hover {
+        background: ${darken(0.03, 'lightblue')};
+      }
     }
   }
 
