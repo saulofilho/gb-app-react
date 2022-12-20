@@ -78,14 +78,62 @@ export default function Dashboard() {
         </button>
       </header>
       <ul>
-        {schedule.map(time => (
+        <Time>
+          <strong>7:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>8:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>9:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>10:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>11:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>12:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>13:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>14:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>15:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>16:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>17:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        <Time>
+          <strong>18:00h</strong>
+          <span>Em aberto</span>
+        </Time>
+        {/* {schedule.map(time => (
           <Time key={time.time} past={time.past} available={!time.appointment}>
             <strong>{time.time}</strong>
             <span>
               {time.appointment ? time.appointment.user.name : 'Em aberto'}
             </span>
           </Time>
-        ))}
+        ))} */}
       </ul>
     </Container>
   );
